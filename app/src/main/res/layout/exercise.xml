@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bagan1"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/pho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Bagan"
+            android:textColor="#FF55"
+            android:textSize="40sp" />
+
+
+        <ImageView
+            android:id="@+id/pho1"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="156dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/pho"
+            android:src="@drawable/ic_baseline_star_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pho1"
+            android:text="41"
+            android:textColor="#FF55"
+            android:textSize="20dp" />
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/pho"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/ic_baseline_call_24"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:id="@+id/router"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/pho"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/call"
+            android:src="@drawable/ic_baseline_router_24" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/call"
+            android:layout_marginLeft="40dp"
+            android:text="call"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/router"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@id/text1"
+            android:text="router"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/share"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/text2"
+            android:text="share"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/pho"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/router"
+            android:src="@drawable/ic_baseline_share_24" />
+
+    </RelativeLayout>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Bagan is an ancient city
+     and a UNESCO World
+    Heritage Site located in the Mandalay
+    Region of Myanmar. From the 9th to 13th centuries,
+     the city was the capital of the Pagan Kingdom,
+      the first kingdom that unified the regions that
+       would later constitute modern Myanmar. "
+    android:textSize="20dp"
+    android:textColor="#FF55"
+    android:layout_marginTop="30dp"
+   android:layout_marginLeft="20dp" />
+
+</LinearLayout>
